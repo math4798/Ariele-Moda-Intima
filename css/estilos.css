@@ -1,0 +1,28 @@
+body {
+    min-width: 372px;
+}
+
+.navbar {
+    background: rgb(18, 128, 133);
+    background: linear-gradient(90deg, rgba(18, 128, 133, 1) 13%, rgba(0, 0, 57, 1) 100%, rgba(15, 86, 0, 1) 100%, rgba(0, 212, 255, 1) 100%);
+}
+
+footer {
+    background: rgb(18, 128, 133);
+    background: linear-gradient(90deg, rgba(18, 128, 133, 1) 13%, rgba(0, 0, 57, 1) 100%, rgba(15, 86, 0, 1) 100%, rgba(0, 212, 255, 1) 100%);
+}
+
+.wrapper {
+    min-height: 100vh;
+}
+
+@media screen and (max-width: 469px) {
+    .mt-xs-3 {
+        margin-top: 1rem;
+    }
+}
+
+label:hover .text-white {
+    transition: color 0.2s ease;
+    color: white !important;
+}
